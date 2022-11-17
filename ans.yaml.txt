@@ -1,0 +1,8 @@
+- name: Install apache server
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Install apache2 server
+      apt:
+        name: apache2
+        state: latest
