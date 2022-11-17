@@ -1,4 +1,4 @@
-- name: Install apache server
+- name: Install apache2
   hosts: localhost
   become: yes
   tasks:
