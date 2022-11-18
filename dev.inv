@@ -1,2 +1,2 @@
-localhost
-35.174.171.167 ansible_user=ec2-user
+localhost ansible_connection=localhost 
+ 
