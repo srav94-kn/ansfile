@@ -1,2 +1,2 @@
-localhost ansible_connection=ssh ansible_user=jenkins ansible_ssh_pass=sravanthi 
+dev ansible_host=54.221.30.71 ansible_connection=ssh
  
