@@ -1,5 +1,5 @@
 - name: Install apache server
-  hosts: dev
+  hosts: all
   become: yes
   tasks:
     - name: Install apache2 server
