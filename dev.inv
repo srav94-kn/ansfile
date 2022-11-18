@@ -1,2 +1,2 @@
-localhost ansible_connection=localhost 
+localhost ansible_connection=ssh ansible_user=jenkins ansible_ssh_pass=sravanthi 
  
