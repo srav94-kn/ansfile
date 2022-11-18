@@ -1,11 +1,8 @@
-- name: playbook
+- name: Install apache server
   hosts: localhost
   become: yes
   tasks:
-    - name: ensure apache is at the latest version
-      yum:
-        name: httpd
+    - name: Install apache2 server
+      apt:
+        name: apache2
         state: latest
-    - name: ensure apache is running        
-        name: httpd
-        state: started
