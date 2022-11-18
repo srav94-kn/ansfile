@@ -1,2 +1,2 @@
 dev ansible_host=54.221.30.71 ansible_connection=ssh
- 
+localhost ansible_host=35.174.171.167 ansible_connection=localhost ansible_user=root
